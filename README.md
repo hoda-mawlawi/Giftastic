@@ -1,2 +1,2 @@
 # Giftastic App
-* description of app  *
+- description of app -
