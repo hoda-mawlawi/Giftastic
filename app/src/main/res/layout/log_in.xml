@@ -86,7 +86,7 @@
         android:id="@+id/signUp"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:onClick="switch"
+        android:onClick="switchToSignUp"
         android:text="Sign Up"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
