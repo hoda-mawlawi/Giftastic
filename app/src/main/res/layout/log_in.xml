@@ -23,7 +23,7 @@
         android:id="@+id/error"
         android:layout_width="350dp"
         android:layout_height="20dp"
-        android:text="Email or password are wrong"
+        android:text=""
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
