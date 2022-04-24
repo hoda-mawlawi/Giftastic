@@ -123,6 +123,7 @@
         android:layout_width="150dp"
         android:layout_height="20dp"
         android:hint="Click here to calculate"
+        android:onClick="shipping"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.85"
