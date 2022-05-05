@@ -12,7 +12,7 @@ public class LogIn extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.log_in);
-        //if came here from sign up page and email was sent, take it
+        //if came here from sign up page and email was sent, take it ? [not doing that]
     }
 
     public void logIn (View v) {
@@ -29,7 +29,7 @@ public class LogIn extends AppCompatActivity {
     }
 
     public void switchToSignUp (View v) {
-        //intent to sign up page, take email if given?
+        //intent to sign up page, take email if given[not doing that]?
         Intent sign = new Intent(getApplicationContext(), SignUp.class);
         startActivity(sign);
     }

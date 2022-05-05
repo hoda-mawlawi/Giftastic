@@ -12,12 +12,15 @@ public class SignUp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sign_up);
 
-        //if email was sent from log in page, take it
+        //if email was sent from log in page, take it ? [not doing that]
     }
 
     public void signUp () {
         //if all the info is given, create a new user in the database with the info
         // [post user info]
+
+
+        //go in
         Intent occ = new Intent(getApplicationContext(), Occasions.class);
         startActivity(occ);
 
@@ -28,7 +31,7 @@ public class SignUp extends AppCompatActivity {
     }
 
     public void switchToLogIn () {
-        //go to log in page, take email with you ?
+        //go to log in page, take email with you[not doing that]?
         Intent log = new Intent(getApplicationContext(), LogIn.class);
         startActivity(log);
     }
