@@ -1,5 +1,6 @@
 package com.example.giftastic;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -17,7 +18,10 @@ public class LogIn extends AppCompatActivity {
     public void logIn (View v) {
         //take email and password
         //[get email and password of user]
+
         //if email exists and password is correct, go to occasions page
+        Intent occ = new Intent(getApplicationContext(), Occasions.class);
+        startActivity(occ);
 
         //otherwise give any of these errors
             //no email and/or password given
@@ -26,5 +30,7 @@ public class LogIn extends AppCompatActivity {
 
     public void switchToSignUp (View v) {
         //intent to sign up page, take email if given?
+        Intent sign = new Intent(getApplicationContext(), SignUp.class);
+        startActivity(sign);
     }
 }

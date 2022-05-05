@@ -1,5 +1,6 @@
 package com.example.giftastic;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -20,5 +21,15 @@ public class SpecificOccasion extends AppCompatActivity {
     public void addToCart (View v)  {
         //add product to cart of user
         //[post product id linked with user id]
+    }
+
+    public void back (View v) {
+        Intent occ = new Intent(getApplicationContext(), Occasions.class);
+        startActivity(occ);
+    }
+
+    public void goToCart (View view) {
+        Intent cart = new Intent(getApplicationContext(), Cart.class);
+        startActivity(cart);
     }
 }

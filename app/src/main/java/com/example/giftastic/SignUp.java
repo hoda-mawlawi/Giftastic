@@ -1,5 +1,6 @@
 package com.example.giftastic;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,6 +18,8 @@ public class SignUp extends AppCompatActivity {
     public void signUp () {
         //if all the info is given, create a new user in the database with the info
         // [post user info]
+        Intent occ = new Intent(getApplicationContext(), Occasions.class);
+        startActivity(occ);
 
         //possible errors
             //name, email and/or password not given
@@ -26,5 +29,7 @@ public class SignUp extends AppCompatActivity {
 
     public void switchToLogIn () {
         //go to log in page, take email with you ?
+        Intent log = new Intent(getApplicationContext(), LogIn.class);
+        startActivity(log);
     }
 }
