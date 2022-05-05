@@ -10,7 +10,7 @@ public class Occasions extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.occasions);
 
         //take occasions from database and fill the recyclerView
         //[get list of product types]

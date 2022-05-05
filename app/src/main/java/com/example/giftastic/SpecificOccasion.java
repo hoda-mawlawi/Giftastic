@@ -10,7 +10,7 @@ public class SpecificOccasion extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.specific_occasion);
 
         //using name of occasion from intent,
             // take the products fom database and fill recyclerView
